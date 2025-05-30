@@ -1,0 +1,8 @@
+# Исключить PyInstaller сборку
+mqqt_pc_controler/dist/
+mqqt_pc_controler/build/
+
+# Исключить конфиг
+mqqt_pc_controler/config.json
+
+# (опцион
