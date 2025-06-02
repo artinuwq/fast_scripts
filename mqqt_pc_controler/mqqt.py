@@ -27,6 +27,9 @@ def load_config():
     if not all(config.get(key) for key in ["MQTT_BROKER", "MQTT_PORT", "MQTT_TOPIC_COMMAND", "MQTT_TOPIC_STATUS", "CLIENT_ID"]):
         return None  # Не все поля заполнены
 
+
+
+            
     return config
 
 # === Функция для сна ===
